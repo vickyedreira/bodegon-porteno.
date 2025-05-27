@@ -101,10 +101,23 @@ main h2 {
 
 .footer-negro {
   background-color: black;
-  height: 60px;
-  width: 100%;
-  margin-top: 60px;
+  color: white;
+  padding: 15px 30px;
 }
+
+.footer-contenido {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-izquierda,
+.footer-derecha {
+  font-family: Arial, sans-serif; /* o la misma que estés usando en el header */
+  font-size: 14px;
+}
+
+
 .videos-container {
   display: flex;
   justify-content: center;
@@ -115,4 +128,34 @@ main h2 {
 }
 .videos-container iframe {
   border-radius: 10px;
+}
+.receta {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  font-family: 'Playfair Display', serif;
+}
+
+
+.receta h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.receta ul,
+.receta ol {
+  margin: 0 auto 20px auto;
+  padding-left: 40px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.receta li {
+  margin-bottom: 10px;
+}
+.video-receta {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
 }
